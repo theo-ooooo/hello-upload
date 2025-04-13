@@ -1,4 +1,3 @@
-```markdown
 ## 📦 파일 업로드 & 다운로드 정리
 
 ---
@@ -77,5 +76,4 @@ public ResponseEntity<Resource> download(@PathVariable Long id) {
         .header(HttpHeaders.CONTENT_DISPOSITION, contentDisposition)
         .body(resource);
 }
-```
 ```
